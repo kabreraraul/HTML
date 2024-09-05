@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Variable JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        Esto es la página: <br>
+        <h1>Hola: Raul, Es un nombre muy raro.</h1>
+        Esto lo manda JS: <br>
+        <script>
+          var nombre;
+          var edad;
+          var nombre1;
+          var edad2;
+          nombre= window.prompt("Escribe tu nombre: ");
+          edad= window.prompt("Escribe tu edad: ");
+          nombre1= window.prompt("Escribe el nombre de otra persona: ");
+          edad2= window.prompt("Escribe la edad de "+nombre1+": ");
+          document.write("<h1>Hola: "+nombre+" y "+nombre1);
+          document.write(" es un gusto conocerlos a sus "+edad+" años y a sus "+edad2+" años de edad</h1>");          
+        </script>
+    </body>
+</html>
